@@ -1,0 +1,7 @@
+Python is a high-level, interpreted programming language known for its readability and versatility. It supports multiple programming paradigms, including procedural, object-oriented, and functional programming. Python is widely used for web development, data analysis, artificial intelligence, scientific computing, and automation.
+
+The Python Software Foundation manages the development of Python. The language was created by Guido van Rossum and first released in 1991. Python has a large standard library and a vibrant community that contributes to its many third-party packages.
+
+Key features of Python include dynamic typing, automatic memory management, and a simple syntax that emphasizes code readability. Popular frameworks like Django and Flask are built with Python to simplify web development tasks.
+
+Python's ease of use and extensive libraries make it a popular choice for beginners and experienced developers alike.
