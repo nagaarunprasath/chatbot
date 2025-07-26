@@ -4,15 +4,15 @@ import re
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
-st.title("🧠 Simple RAG AI (Beginner Version)")
+st.title("Simple RAG AI ")
 
 # Upload or enter text
-st.subheader("📄 Upload, Paste Text, or Excel File")
+st.subheader(" Upload, Paste Text, or Excel File")
 uploaded_file = st.file_uploader("Choose a .txt or .xlsx/.xls file", type=["txt", "xlsx", "xls"])
 text_input = st.text_area("Or paste text here")
 
 # Question input
-query = st.text_input("❓ Ask a question")
+query = st.text_input("Ask a question")
 
 # Load text from file or input
 text = ""
@@ -64,5 +64,5 @@ def retrieve_answer(chunks, query):
 if text and query:
     chunks = split_text(text)
     answer = retrieve_answer(chunks, query)
-    st.markdown("### 🧠 Retrieved Answer:")
+    st.markdown("### Retrieved Answer:")
     st.write(answer)
